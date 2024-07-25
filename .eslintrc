@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended", // TypeScript 규칙 추가
+    "plugin:prettier/recommended",
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+  },
+  "globals": {
+    "window": true,
+  },
+  "parser": "@typescript-eslint/parser", // TypeScript 파서로 변경
+  "ignorePatterns": ["node_modules", "dist", "public/index.html"],
+  "plugins": ["svg-jsx"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+      },
+    ],
+    "react/jsx-filename-extension": [
+      "warn",
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] },
+    ], // JSX를 사용하는 파일 확장자에 .ts 및 .tsx 추가
+    "react/no-unknown-property": 0,
+    "svg-jsx/camel-case-dash": "error",
+    "svg-jsx/camel-case-colon": "error",
+    "svg-jsx/no-style-string": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    // TypeScript에서 사용하지 않는 변수에 대한 경고
+    "@typescript-eslint/no-explicit-any": "off",
+    // any를 사용
+  },
+  "settings": {
+    "react": {
+      "version": "detect",
+    },
+  },
+}
