@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "jukangpark",
+    "email": "skyxxx9339@naver.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nkia-development/hexagon-chart.git"
+  },
+  "homepage": "https://github.com/nkia-development/hexagon-chart#readme",
+  "license": "MIT"
 }
