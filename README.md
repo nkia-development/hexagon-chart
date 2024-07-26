@@ -1,4 +1,4 @@
-# Hexagon-chart
+# Hexagon-Chart
 
 Hexagon-Chart is a React component that renders data in a hexagon shape. It supports various options for representing data and is very easy to use.
 
@@ -13,25 +13,39 @@ Hexagon-Chart is a React component that renders data in a hexagon shape. It supp
 ## Installation
 
 Install the package using npm or yarn:
+
 ```bash
 npm install hexagon-chart
 ```
+
 or
+
 ```bash
 yarn add hexagon-chart
 ```
 
 ## Examples
+
+Live Playground
+For examples of Hexagon-Chart in action, visit https://nkia-development.github.io/hexagon-chart
+
+Or, run the demo storybook on your computer:
+
+```bash
+git clone https://github.com/nkia-development/hexagon-chart
+npm install
+npm run storybook
+```
+
 ```jsx
-import HexagonChart from 'hexagon-chart';
+import HexagonChart from "hexagon-chart";
 
 const MyComponent = () => {
   const data = [];
   const option = {};
 
-  return <HexagonChart data={data} option={option} />
+  return <HexagonChart data={data} option={option} />;
 };
-  
 ```
 
 ## Contributing
