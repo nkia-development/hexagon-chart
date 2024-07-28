@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@storybook/react": ["node_modules/@storybook/react"],
+      "@storybook/test": ["node_modules/@storybook/test"]
+    }
+  }
+}
