@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "declaration": true, // tsc 명령어를 통해 .d.ts 파일을 생성합니다.
+    "outDir": "./dist", // 컴파일된 파일이 저장될 경로
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true, // default import 구문을 사용할 수 있게 합니다.
+    "sourceMap": true, // 디버깅을 위한 소스맵 파일 생성 여부
+    "noImplicitAny": false, // true 일 경우 any 타입을 허용하지 않습니다.
+    "jsx": "react", // jsx 문법 사용 여부
+    "moduleResolution": "node", // TypeScript 에게 Node.js 방식으로 모듈을 찾도록 지시
+    "downlevelIteration": true, // for of 문법 사용 여부
+    "esModuleInterop": true, // CommonJS 모듈을 import 할 수 있게 합니다. 이 설정을 주지 않으면, jest 를 ts 로 작성하게 될때 json 파일을 import 할 수 없음
+    "resolveJsonModule": true // json 파일을 import 할 수 있게 합니다.
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"], // .tsx 추가
+  "exclude": ["node_modules"]
+}
