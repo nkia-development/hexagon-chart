@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "declaration": true, // Generates .d.ts files using the tsc command.
+    "outDir": "./dist", // Specifies the output directory for compiled files.
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true, // Enables the use of default import syntax.
+    "sourceMap": true, // Determines whether to generate source map files for debugging.
+    "noImplicitAny": true, // If true, disallows the use of any type.
+    "jsx": "react", // Enables the use of JSX syntax.
+    "moduleResolution": "node", // Instructs TypeScript to resolve modules in the Node.js style.
+    "downlevelIteration": true, // Enables support for 'for of' loops.
+    "esModuleInterop": true, // Allows the import of CommonJS modules. This setting is necessary to import JSON files when writing Jest tests in TypeScript.
+    "resolveJsonModule": true // Enables the import of JSON files.
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"], // Includes .tsx files as well.
+  "exclude": ["node_modules"]
+}
