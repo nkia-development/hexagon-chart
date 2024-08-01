@@ -3,8 +3,9 @@
   "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
-    "build": "webpack",
+    "build": "tsc && webpack",
     "test": "jest --coverage --watchAll",
     "prepublishOnly": "npm run build",
     "storybook": "storybook dev -p 6006",
@@ -60,6 +61,7 @@
     "prettier": "^3.3.3",
     "storybook": "^8.2.6",
     "ts-jest": "^29.2.3",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.5.4",
     "typescript-eslint": "^7.17.0",
     "webpack": "^5.93.0",
