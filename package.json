@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/nkia-development.github.io/hexagon-chart",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
     "@babel/core": "^7.24.9",
     "@babel/preset-env": "^7.24.8",
