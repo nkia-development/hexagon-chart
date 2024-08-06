@@ -1,3 +1,3 @@
-import HexagonChart from "./HexagonChart";
+import HexagonChartWrapper from "./HexagonChartWrapper";
 
-export default HexagonChart;
+export default HexagonChartWrapper;
