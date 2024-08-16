@@ -26,8 +26,6 @@ yarn add hexagon-chart
 
 ## Examples
 
-<img src="https://github.com/user-attachments/assets/9b3e84bc-3fab-473f-b0f5-67d40243ebba" alt="example image" />
-
 Live Playground
 For examples of Hexagon-Chart in action, visit https://nkia-development.github.io/hexagon-chart
 
@@ -39,14 +37,33 @@ npm install
 npm run storybook
 ```
 
+### HexagonChart
+
+![alt text](image.png)
+
 ```jsx
-import HexagonChart from "hexagon-chart";
+import { HexagonChart } from "hexagon-chart";
 
 const MyComponent = () => {
   const data = [];
   const option = {};
 
   return <HexagonChart data={data} option={option} />;
+};
+```
+
+### PieHexagonChart
+
+![alt text](image-1.png)
+
+```jsx
+import { PieHexagonChart } from "hexagon-chart";
+
+const MyComponent = () => {
+  const data = [];
+  const option = {};
+
+  return <PieHexagonChart data={data} option={option} />;
 };
 ```
 

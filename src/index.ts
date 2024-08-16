@@ -1,3 +1,4 @@
-import HexagonChartWrapper from "./HexagonChartWrapper";
+import HexagonChart from "./HexagonChartWrapper";
+import PieHexagonChart from "./pie-hexagon/PieHexagonChart";
 
-export default HexagonChartWrapper;
+export { HexagonChart, PieHexagonChart };
