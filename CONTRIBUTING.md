@@ -9,7 +9,6 @@ hexagon-chart is MIT licensed and accepts contributions via GitHub pull requests
 If you have any questions along the way, please don’t hesitate to ask us
 ()
 
-
 - Discord: [hexagon-chart Discord](https://discord.gg/yWvcHuWv).
 
 ### Getting started
